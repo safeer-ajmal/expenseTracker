@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1,
+  h2 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input,
+  select {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  td button {
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  td button.edit {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  td button.delete {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  td button.edit:hover {
+    background-color: #e0a800;
+  }
+  
+  td button.delete:hover {
+    background-color: #c82333;
+  }
+  
+  /* Styles for editing inputs and save button */
+  input.edit-title,
+  input.edit-amount,
+  select.edit-category {
+    width: 90%;
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  button.save {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  button.save:hover {
+    background-color: #0056b3;
+  }
+  
